@@ -1,0 +1,30 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="purpleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a855f7"/>
+      <stop offset="100%" style="stop-color:#7c3aed"/>
+    </linearGradient>
+  </defs>
+  
+  <polygon points="128,20 220,75 220,181 128,236 36,181 36,75" 
+           fill="#1a0a2e" stroke="#7c3aed" stroke-width="8"/>
+  
+  <polygon points="128,40 200,85 200,171 128,216 56,171 56,85" 
+           fill="none" stroke="#5b21b6" stroke-width="4" opacity="0.6"/>
+  
+  <path d="M 128 80 Q 170 100 170 140 Q 170 180 128 200" 
+        fill="none" stroke="url(#purpleGradient)" stroke-width="28" 
+        stroke-linecap="round" opacity="0.9"/>
+  
+  <path d="M 128 80 Q 86 100 86 140 Q 86 180 128 200" 
+        fill="none" stroke="url(#purpleGradient)" stroke-width="28" 
+        stroke-linecap="round" opacity="0.9"/>
+  
+  <ellipse cx="128" cy="128" rx="45" ry="60" 
+           fill="none" stroke="#8b5cf6" stroke-width="20" opacity="0.7"
+           transform="rotate(30 128 128)"/>
+  
+  <circle cx="128" cy="128" r="25" fill="#1a0a2e"/>
+  
+  <circle cx="128" cy="230" r="4" fill="#7c3aed"/>
+</svg>
